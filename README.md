@@ -1,0 +1,1 @@
+This repository demonstrates an uncommon error in VBScript's error handling. Specifically, when Err.Raise is called within a function, the error may not be properly handled by the calling function unless On Error Resume Next is explicitly used.  The bug.vbs file showcases the problem, while bugSolution.vbs offers a solution.
